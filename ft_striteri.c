@@ -26,7 +26,7 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 	}
 }
 
-/*void	f_test(unsigned int n, char *c)
+void	f_test(unsigned int n, char *c)
 {
 	printf("%s\n", c);
 }
@@ -35,4 +35,4 @@ int main()
 {
 	char ab[] = "kirkiki";
 	ft_striteri(ab, f_test);
-}*/
+}
